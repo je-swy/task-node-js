@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "firstName": "Kate",
+      "lastName": "Shem",
+      "email": "kate.test@gmail.com",
+      "phoneNumber": "+380991234567",
+      "password": "test123",
+      "id": "a2c2070b-cecd-4712-856c-067dbca6569b",
+      "createdAt": "2025-05-12T10:17:46.874Z"
+    },
+    {
+      "firstName": "Kate",
+      "lastName": "Shem",
+      "email": "kate2.test@gmail.com",
+      "phoneNumber": "+380991234867",
+      "password": "test123",
+      "id": "0e22f2a8-a4f3-46a9-bf98-f97b9e8bc346",
+      "createdAt": "2025-05-12T11:03:24.171Z"
+    }
+  ],
+  "fighters": [
+    {
+      "name": "Gladiator",
+      "power": 70,
+      "defense": 8,
+      "health": 100,
+      "id": "a3958e72-dfdf-4414-8e15-b279366776b4",
+      "createdAt": "2025-05-12T11:05:35.120Z"
+    },
+    {
+      "name": "Thor",
+      "power": 70,
+      "defense": 8,
+      "health": 85,
+      "id": "f519b0f0-2cd5-453e-a025-a31865c0f27b",
+      "createdAt": "2025-05-12T11:06:06.572Z"
+    }
+  ],
+  "fights": [
+    {
+      "fighter1": "a3958e72-dfdf-4414-8e15-b279366776b4",
+      "fighter2": "f519b0f0-2cd5-453e-a025-a31865c0f27b",
+      "winner": "f519b0f0-2cd5-453e-a025-a31865c0f27b",
+      "log": [
+        {
+          "fighter1Shot": 62,
+          "fighter2Shot": 62,
+          "fighter1Health": 38,
+          "fighter2Health": 23
+        },
+        {
+          "fighter1Shot": 62,
+          "fighter2Shot": 62,
+          "fighter1Health": 0,
+          "fighter2Health": 0
+        }
+      ],
+      "id": "cdc68cae-8c6b-451a-8a75-ef5f0c5f35a8",
+      "createdAt": "2025-05-12T11:11:20.553Z"
+    }
+  ]
+}
